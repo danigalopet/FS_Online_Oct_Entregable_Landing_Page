@@ -1,0 +1,34 @@
+
+
+.planet {
+    display: flex;
+    justify-content: center;
+    color:aquamarine
+}
+
+.skin{
+    display: flex;
+    justify-content: center;
+    color: pink;
+}
+div{
+    display: flex;
+    align-self: flex-start;
+}
+
+.menu{
+    color: aquamarine;
+}
+
+
+@media screen and (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        text-align: left;
+    }
+}
